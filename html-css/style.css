@@ -1,6 +1,6 @@
 body {
   box-sizing: border-box;
-  font-size: 13px;
+  font-size: 14px;
   margin: 0;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
@@ -9,11 +9,11 @@ a {
   text-decoration: none;
 }
 a:visited,
-a:active{
+a:active {
   color: blue;
 }
 a:hover {
-  color: rgba(0,4,89);
+  color: rgba(0, 4, 89);
 }
 
 .container {
@@ -44,75 +44,73 @@ header li {
 }
 
 .googleApp {
-	background-image: url('menu-icon.png');
-	display: inline-block;
-    outline: none;
-    vertical-align: middle;
-	box-sizing: border-box;
-    height: 20px;
-    width: 20px;
-    padding: 2px;
+  background-image: url("https://lh3.googleusercontent.com/0tQYmQFHAYVdIzaWlgrURdfl9Y90b6NZaF1HItM2pgQXCZhtty4qxPXbOOIt372kLrX1Iwr7PMUQjny2Vp0TK1mo2OhkGyvsu95uy2avuteifxQ_VaRgUBPfrBTitIMGxqSIPyGUW8dg-FIwuxa5RYNpQV2Jr02SM6QbOB6h0iZfPzPZJcsBRbv1pX9fvmqRIn8NEbrrmnGovU1LoMW0HGUz9L3kvt76WIrTrBAVrDNsQIUSRRsXKmKQDy_IePVIQjM2FES_pB7cLOAWdVI5y2b949gbp4zoXZp7rMmloAoX6bZ-5v54O6ZD5JR6zC-YRpdN2tb645Rix3RR6Kl9QddVwJBIGvww_MjFd--0OvmuE75fSlcGMIiNtcsPOiEAXxuhmiLl28L90iH16ZDQdznzheH5tN-hn27KFFPWEYqppLPf2JqdD-mGOf9FT7koMRwXEIKl_P7SdJE1amTfiFZOGfIKv3JynaBG2C1IVqDuMhaxF5bdfJNAfwt_gP51d2-LqRf6cQoJQXXpijb3jZ8Wp7f6O6Lkl_ZcJ2ke7Qu5UBHcvEx-CG6I99OCBR2S-x5UnHN3dXLzjTM-1OQBf5tOKp_AJZHr6vXGko_QWj46uz4sQUsYMlJ7lRo1rSgiGGMzY03_NuOlUx8nstLs0PKU=s16-no");
+  display: inline-block;
+  outline: none;
+  vertical-align: middle;
+  box-sizing: border-box;
+  height: 20px;
+  width: 20px;
+  padding: 2px;
 }
 
 input[type="text"] {
-    background-color: white;
-    background-image: url('googleMic.png');
-    background-position: right;
-    background-repeat: no-repeat;
-    vertical-align: middle;
-    line-height: 34px;
-    font-size: 16px;
-    display: flex;
-    padding: 5px 8px 0 16px;
-    box-sizing: border-box;
-    position: relative;
-    margin: 0 auto;
-    padding-left: 12px;
-    padding-top: 6px;
-    width: 100%;
-    border-style: none;
-
+  background-color: white;
+  background-image: url("https://lh3.googleusercontent.com/nCxqWzLbjNMAmeh-HjFYIdL5RVXhL88ZButSW_EZWISsyFFnACfXPn6e-gTw6gvDZrHKnYeiFvQDG5mG51x16WmaVTQp-9Z6iBURO53mnqZgZmYg48gzenXeMY1SvtoYkI8VqknSCtPcPQ-zx8ysepnzRxI0rE6Fxnc9xkCukXZ1RpYgKka9StFqfXM3sVlqT-1fqsT2Zdve6PhvSKwrFhWwrrd6ArFkH9RByEGozh6IlNTpiZUapFOmRpnghIpZpM6QfT3aa-7E92wXmqCIk8200FEEMr2qtjksLfZKdVcNdWhgCL5I2m8nTiJKnXhSQ_AFL-PtfgD0G8Frxhtr_ic9IH2R7u4PZwKaFMigjWlpmhqSTqb-KVeha-XK-wJfnLk2ILg1ene9848T-mdq9w-O_W3q4mjBTcN5wJz4IYDY4p2KeOps0-OZ1EiqZX66NToLCqZjmMOcdOnMfFvC3MECM4ajI1LhKzz4xYX8jO7dEzZ_irFjeLKWprVb_KdICVlCPa1IZQBdKhltixWjqv1qy6I5_6VBd5BBcalX9hLHQMljQKE4jwFEpiisghZn_BfBTzTiiMN6TRs8867jxplNdcvc6ZGrxaBGnJahpxKV5-WY1xYqg8L8zGrOznuhZVqdWS7LOg2lU5UlFQnFIdim=s24-no");
+  background-position: right;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  line-height: 34px;
+  font-size: 16px;
+  display: flex;
+  padding: 5px 8px 0 16px;
+  box-sizing: border-box;
+  position: relative;
+  margin: 0 auto;
+  padding-left: 12px;
+  padding-top: 6px;
+  width: 100%;
+  border-style: none;
 }
 
-#search-area{
-	width: 584px;
-	border: 1px solid #ccc;
-	border-radius: 4px;
-    outline: none;
+#search-area {
+  width: 584px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
 }
 
 #search-area:hover {
-	box-shadow: 0 3px 5px #d9d9d9;
+  box-shadow: 0 3px 5px #d9d9d9;
 }
 
 #button-section {
-	margin-top: 20px;
+  margin-top: 20px;
 }
 
 input[type="submit"] {
-	height: 36px;
-	background-color: #f2f2f2;
-    border: 1px solid #f2f2f2;
-    border-radius: 2px;
-    color: #757575;
-    cursor: default;
-    font-family: arial,sans-serif;
-    font-size: 13px;
-    font-weight: bold;
-    margin: 11px 4px;
-    min-width: 54px;
-    padding: 0 16px;
-    text-align: center;
+  height: 36px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  color: #757575;
+  cursor: default;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 11px 4px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
 }
 
 input[type="submit"]:hover {
-	color: #222;
-	border: 1px solid #ccc;
+  color: #222;
+  border: 1px solid #ccc;
 }
 
-
 .text-section {
-	padding: 10px;
+  padding: 10px;
 }
 
 .footer {
