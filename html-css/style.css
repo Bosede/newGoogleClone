@@ -8,6 +8,13 @@ body {
 a {
   text-decoration: none;
 }
+a:visited,
+a:active{
+  color: blue;
+}
+a:hover {
+  color: rgba(0,4,89);
+}
 
 .container {
   position: relative;
@@ -29,7 +36,6 @@ header li {
   display: inline;
   margin-right: 20px;
 }
-
 #signInButton {
   padding: 5px 8px 5px 8px;
   background: blue;
@@ -37,27 +43,78 @@ header li {
   text-decoration: none;
 }
 
-form input {
-  width: 50%;
-  height: 40px;
-  margin-bottom: 40px;
-  border-radius: 5px;
-  outline: none;
+.googleApp {
+	background-image: url('menu-icon.png');
+	display: inline-block;
+    outline: none;
+    vertical-align: middle;
+	box-sizing: border-box;
+    height: 20px;
+    width: 20px;
+    padding: 2px;
 }
-.searchContainer {
-  margin: 0 40px 40px 40px;
+
+input[type="text"] {
+    background-color: white;
+    background-image: url('googleMic.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    line-height: 34px;
+    font-size: 16px;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto;
+    padding-left: 12px;
+    padding-top: 6px;
+    width: 100%;
+    border-style: none;
+
 }
-.searchButton {
-  text-decoration: none;
-  background-color: #f2f2f2;
-  border-radius: 5px;
-  color: #757575;
-  cursor: pointer;
-  font-weight: bold;
-  margin: 11px 4px;
-  padding: 11px 18px;
-  text-align: center;
+
+#search-area{
+	width: 584px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+    outline: none;
 }
+
+#search-area:hover {
+	box-shadow: 0 3px 5px #d9d9d9;
+}
+
+#button-section {
+	margin-top: 20px;
+}
+
+input[type="submit"] {
+	height: 36px;
+	background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+input[type="submit"]:hover {
+	color: #222;
+	border: 1px solid #ccc;
+}
+
+
+.text-section {
+	padding: 10px;
+}
+
 .footer {
   position: fixed;
   width: 100%;
@@ -91,7 +148,6 @@ form input {
   display: inline-block;
   padding: 10px 20px 10px 0;
   margin: 0;
-
   float: right;
 }
 #rightFooter li {
