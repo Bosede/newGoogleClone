@@ -25,4 +25,8 @@ router.delete("/delete", function(req, res, next) {
   res.send("You are deleting");
 });
 
+router.get("/all", function(req, res, next) {
+  res.send(blogArray);
+});
+
 module.exports = router;
