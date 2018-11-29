@@ -1,0 +1,29 @@
+{
+  "name": "express1",
+  "version": "1.0.0",
+  "description": "Working with Node Js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonyofume/bluechipNodeJs.git"
+  },
+  "keywords": [
+    "first",
+    "anthony",
+    "node",
+    "js"
+  ],
+  "author": "anthony ofume",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anthonyofume/bluechipNodeJs/issues"
+  },
+  "homepage": "https://github.com/anthonyofume/bluechipNodeJs#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
